@@ -8,7 +8,7 @@ body {
 }
 * {
   font-family: "Verdana", cursive, sans-serif;
-  color: #ffffff;
+  color: linear-gradient( to right, #dfe3f6, #7d4488);
 }
 
 body {
@@ -17,10 +17,15 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-image: url(https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg);
+  background-size: cover;
 }
 
 .app {
-  background-color: #252d4a;
+  background: #acb6e5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   width: 450px;
   min-height: 200px;
   height: min-content;
@@ -77,13 +82,13 @@ button {
   width: 100%;
   font-size: 16px;
   color: #ffffff;
-  background-color: #252d4a;
+  background-color: #829af2;
   border-radius: 15px;
   display: flex;
   padding: 5px;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid #234668;
+  border: 5px solid #1363b4;
   cursor: pointer;
 }
 
@@ -96,7 +101,7 @@ button {
 }
 
 button:hover {
-  background-color: #555e7d;
+  background-color: #060e2c;
 }
 
 button:focus {
