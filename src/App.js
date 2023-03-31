@@ -43,8 +43,8 @@ export default function App() {
 			answerOptions: [
 				{ answerText: 'Leviosa', isCorrect: false },
 				{ answerText: 'Expecto Potronum', isCorrect: false },
-				{ answerText: 'Avada Kedavra', isCorrect: false },
-				{ answerText: 'Crucious', isCorrect: true },
+				{ answerText: 'Avada Kedavra', isCorrect: true },
+				{ answerText: 'Crucious', isCorrect: false },
 			],
 		},
 	];
